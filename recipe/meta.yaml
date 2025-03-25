@@ -29,7 +29,7 @@ requirements:
     - h5py
     - diffmah
     - diffstar
-    - dsps
+    - dsps >=0.4.0
 
 test:
   imports:

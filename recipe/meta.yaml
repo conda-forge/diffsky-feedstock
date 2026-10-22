@@ -1,5 +1,5 @@
 {% set name = "diffsky" %}
-{% set version = "0.3.10" %}
+{% set version = "0.3.11" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/diffsky-{{ version }}.tar.gz
-  sha256: 70cfcac0086b7c946812818b79a7c956e7cf56a91fe2ae9348f73115c9bec6d9
+  sha256: f1e6fd0170414e9e1c4c5cd9fad3f0410fc724dbaa37063ad5f9548e5e1da94a
 
 build:
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation

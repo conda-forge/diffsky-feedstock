@@ -24,12 +24,13 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - numpy
+    - numpy >=2
     - jax
     - h5py
-    - diffmah >=0.7.0
-    - diffstar >=0.3.3
-    - dsps >=0.4.0
+    - diffmah >=0.7.3
+    - diffstar >=1.0.3
+    - dsps >=0.4.8
+    - diffhalos
 
 test:
   imports:
